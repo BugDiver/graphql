@@ -169,7 +169,13 @@ DELETE /users/userId
 
 # A news feed example
 
+<<<<<<< HEAD
 JSON response for query `Get /posts?limit=10`
+=======
+JSON response for query
+
+`Get /posts?limit=10`
+>>>>>>> Added some more slides
 
 ```
 {
@@ -188,7 +194,11 @@ JSON response for query `Get /posts?limit=10`
 
 ```
 
+<<<<<<< HEAD
 Wait! we need authors name name avatar url
+=======
+Wait! we need authors name and avatar url
+>>>>>>> Added some more slides
 
 ---
 
@@ -197,6 +207,10 @@ Wait! we need authors name name avatar url
 
 
 `Get /posts?limit=10`
+<<<<<<< HEAD
+=======
+
+>>>>>>> Added some more slides
 `Get /users/limit=10`
 
 ```
@@ -227,6 +241,10 @@ Wait! that is not in list.
 
 `Get /posts?limit=10`
 
+<<<<<<< HEAD
+=======
+
+>>>>>>> Added some more slides
 `Get /users/limit=30`
 
 ```
@@ -257,16 +275,26 @@ But wait !!!
 
 # A news feed example
 
+<<<<<<< HEAD
 * We have to do a seperate request for each post to get information about it other  (**Multiple Round trips**)
 
 * We are interestd only in `name` and `avatar` still get other fields (**Overfetching data**)
+
+=======
+* We have to do a seperate request for each post to get information about it author  (**Multiple Round trips**)
+
+* We are interestd only in `name` and `avatar` still get other fields (**Overfetching data**)
+
+```
+
+
 
 
 
 
 
         Hhnnggghhh 😖
-
+```
 ---
 
 # A news feed example
@@ -292,7 +320,8 @@ Common approaches to work around these issues
 
 How does GraphQL address these issues ?
 
-Here is and example query and it's response
+Here is an example query and it's response
+
 
 ![query](images/graphqlquery.png)
 
